@@ -1,8 +1,8 @@
 /* ===========The body=============== */
 body{
     margin: auto;
-    width: 100%; 
-    background-color:  whitesmoke;
+    padding: 0;
+    width: 100%;
     font-family: 'Roboto', sans-serif;
 }
 /*============= The head section ===========*/
@@ -143,6 +143,7 @@ main{
 footer{
     background:#161616;
     padding: 20px;
+    width: 1614px;
 }
 footer h1{
     text-align: center;
@@ -180,7 +181,7 @@ ul li{
     header{
         display: flex;
         flex-direction: column;
-        width: 90%;
+        width: 80%;
         height: auto;
         margin-bottom: 10px;
         
@@ -233,19 +234,20 @@ ul li{
     }
     /* =======The foot section======= */
     footer{
-        width: 90%;
+        width: 100%;
         height: auto;
         text-align: center;
         margin: auto;
     }
     hr{
-        width: 70%;
+        width: 80%;
     }
     ul{
         display: flex;
         flex-direction: column;
         margin-left: 10px;
     }
+
 
     
 }
