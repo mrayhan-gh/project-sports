@@ -174,8 +174,8 @@ ul li{
 @media only screen and (max-width: 576px) {
     body{
         width: 100%;
-        margin: 5%;
         padding: 0;
+        margin: 0;
     }
     header{
         display: flex;
@@ -232,9 +232,6 @@ ul li{
         grid-template-columns: 1fr;
         grid-gap: 20px;
 
-    }
-    .blogs> div{
-    
     }
     /* =======The foot section======= */
     footer{
