@@ -1,3 +1,4 @@
+
 /* ===========The body=============== */
 body{
     margin: 0;
@@ -176,7 +177,7 @@ ul li{
 }
 
 
-/*=================== Media Queries for mobile devices ==================*/
+/*============= Media Queries for mobile devices ===========*/
 
 @media only screen and (max-width: 576px) {
     body{
@@ -246,9 +247,9 @@ ul li{
         align-content: center;
 
     }
-    .blogs> div{
-        margin-right: 60px;
-        width: 90%;
+    .upcoming-matches> div{
+        margin-right: 90px;
+        width: 80%;
         height: auto;
     }
     /* =======The foot section======= */
@@ -346,5 +347,7 @@ ul li{
     hr{
         width: 70%;
     }
-    
 }
+
+
+/* =====================End==================== */
